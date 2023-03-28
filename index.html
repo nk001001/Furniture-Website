@@ -10,17 +10,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 <body>
     <header>
         <div class="main_container main_header">
-            <h2 class="font">Furniture</h2>
+            <h2 class="font"><a href="index.html">Furniture</a></h2>
             <ul class="ul_wrap font">
-                <li>Home</li>
-                <li>Services</li>
-                <li>Doctors</li>
-                <li>Products</li>
-                <li>Gallery</li>
+                <li><a href="index.html">Home</a></li>
+                <li class="serv-block"><a href="#">Services</a>
+                    <ul class="menu_box">
+                        <li>Web Design</li>
+                        <div class="line_box"></div>
+                        <li>Web Development</li>
+                        <div class="line_box"></div>
+                        <li>Seo</li>
+                    </ul>
+                </li>
+                <li class="serv-block"><a href="#">Doctors</a>
+                    <ul class="menu_box">
+                        <li>Equipment</li>
+                        <div class="line_box"></div>
+                        <li>Our Doctors</li>
+                    </ul>
+                </li>
+                <li class="serv-block"><a href="#">Products</a>
+                    <ul class="menu_box">
+                        <li>By Product</li>
+                        <div class="line_box"></div>
+                        <li>Waste Product</li>
+                        <div class="line_box"></div>
+                        <li>Expense Definition & Meaning</li>
+                        <div class="line_box"></div>
+                        <li>Merriam-Webster Thesaurus</li>
+                    </ul>
+                </li>
+                <li><a href="#">Gallery</a></li>
             </ul>
         </div>
     </header>
@@ -195,6 +220,8 @@
 
         </div>
     </footer>
+
+    <script src="app.js"></script>
     
 </body>
 </html>
