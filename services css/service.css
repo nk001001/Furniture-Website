@@ -1,0 +1,31 @@
+/* global */
+.main_design {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.font {
+    font-family: 'Inter', sans-serif;
+}
+/* global end */
+
+/* header styles start */
+.main_design_header {
+    background-color: #F9F1DDB8;
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 0;
+    align-items: center;
+}
+.main_design_header span {
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+}
+.olivia.font {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+

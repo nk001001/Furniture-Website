@@ -45,7 +45,6 @@
     display: flex;
     font-size: 14px;
     font-weight: 600;
-    color:#333333;
     
 }
 .ul_wrap li{
@@ -58,9 +57,7 @@
     background-color: #cab894;
     
 }
-.main_header li a {
-    color:#333333;
-}
+
 .serv-block {
     position: relative;
 }
@@ -124,6 +121,13 @@
               transform: translateY(10px);
     }
   }
+
+.main_header li  a {
+    color:#333333;
+}
+.main_header h2  a {
+    color: #054C73;
+}
   
 /* header styles end */
 
