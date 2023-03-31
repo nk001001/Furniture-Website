@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* global */
 .main_design {
     max-width: 1440px;
@@ -12,10 +19,15 @@
 /* header styles start */
 .main_design_header {
     background-color: #F9F1DDB8;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding: 35px 0;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .main_design_header span {
     font-weight: 500;
@@ -26,6 +38,5 @@
     font-weight: 700;
     font-size: 40px;
 }
-
 
 
